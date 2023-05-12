@@ -1,0 +1,37 @@
+.contacs-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .contacs-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -23vw;
+  }
+
+  .contacts-circle-wrapper {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    /* justify-content: end; */
+  }
+  .contacs-circle {
+    width: 30vw;
+    height: 30vw;
+    border: 3px solid var(--base-font-color);
+    border-radius: 50%;
+    z-index: 999999;
+    right: -10%;
+    margin-right: -5%;
+  }
+
+  .contacts-map-wrapper {
+    flex: 1;
+    background-color: #cadfdb;
+  }
+}

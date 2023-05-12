@@ -1,0 +1,132 @@
+.dietetics-review-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+
+.dietetics-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 5vw;
+  margin-bottom: 5vw;
+  z-index: 99;
+}
+
+.dietetics-review-circles {
+  width: 25%;
+}
+
+.dietetics-review-circle {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  right: 0;
+}
+
+.dietetics-review {
+  width: 10vw;
+  height: 10vw;
+  border: 2px solid var(--base-font-color);
+  border-radius: 50%;
+  margin-top: -4vw;
+  margin-left: 15vw;
+}
+
+.dietetics-review-2 {
+  width: 25vw;
+  height: 25vw;
+  border: 2px solid var(--base-font-color);
+  border-radius: 50%;
+  margin-top: 5vw;
+  margin-left: -12vw;
+}
+
+.dietetics-review-content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.dietetics-review-title {
+  margin-bottom: 4vw;
+  color: var(--base-font-color);
+  font-size: 3.5vw;
+}
+
+.dietetics-review-content ul {
+  list-style: none;
+}
+
+.dietetics-review-content ul li {
+  font-size: 3.2vw;
+}
+
+.dietetics-review-content ul li::before {
+  content: "•";
+  color: #d5d8eb;
+  margin-right: 0.3vw;
+}
+
+@media screen and (min-width: 768px) {
+  .dietetics-review-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    clip-path: ellipse(53% 60% at 50% 30%);
+    background-color: #f0efef;
+  }
+
+  .dietetics-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 5vw;
+    margin-bottom: 0;
+  }
+
+  .dietetics-review-circles {
+    width: 35%;
+  }
+
+  .dietetics-review-circle {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 0;
+  }
+
+  .dietetics-review {
+    width: 10vw;
+    height: 10vw;
+    border: 2px solid var(--base-font-color);
+    border-radius: 50%;
+    margin-top: -4vw;
+    margin-left: 15vw;
+  }
+
+  .dietetics-review-2 {
+    width: 25vw;
+    height: 25vw;
+    border: 2px solid var(--base-font-color);
+    border-radius: 50%;
+    margin-top: 5vw;
+    margin-left: -12vw;
+  }
+
+  .dietetics-review-content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .dietetics-review-title {
+    width: 80%;
+    margin-bottom: 1vw;
+    color: var(--base-font-color);
+    font-size: 1.2vw;
+  }
+  .dietetics-review-content ul li {
+    font-size: 1vw;
+  }
+}

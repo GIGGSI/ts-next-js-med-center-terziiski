@@ -1,0 +1,98 @@
+.contacts-section-subTitle {
+  font-size: 5.2vw;
+  color: #7baea7;
+  font-weight: bold;
+  margin-bottom: 5vw;
+}
+
+.single-schedule {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  border-radius: 7vw;
+  margin-bottom: 5vw;
+  -webkit-box-shadow: 7px 9px 6px -7px rgba(0, 0, 0, 0.34);
+  box-shadow: 7px 9px 6px -7px rgba(0, 0, 0, 0.34);
+  padding: 2vw;
+  z-index: 999999;
+}
+
+.single-schedule-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 4.1vw;
+  color: #99b1b6;
+  font-weight: bold;
+  text-align: center;
+}
+
+.single-schedule-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: #4c4c4c;
+}
+
+.single-schedule-content-days {
+  margin-top: 2vw;
+}
+.single-schedule-content-papers {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts-content-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacs-schedule-wrapper {
+    margin-top: 4vw;
+    flex: 1;
+  }
+
+  .schedule-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .contacts-section-subTitle {
+    font-size: 1.2vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .single-schedule {
+    width: 75%;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    padding: 1vw;
+  }
+
+  .single-schedule-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.1vw;
+    color: #99b1b6;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .single-schedule-content {
+    font-size: 0.75vw;
+  }
+  .single-schedule-content-days {
+    margin-top: 0.4vw;
+  }
+  .single-schedule-content-papers {
+    font-weight: bold;
+  }
+}

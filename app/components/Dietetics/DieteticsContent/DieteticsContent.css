@@ -1,0 +1,111 @@
+.dietetics-content-wrapper {
+  display: flex;
+}
+
+.dietetic-container {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10vw;
+  gap: 3vw;
+}
+
+.dietetics-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.dietetics-image-container img {
+  max-width: 100%;
+  border-top-left-radius: 15vw;
+}
+
+.dietetics-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.dietetics-content-title {
+  color: var(--base-font-color);
+  margin: 0 auto;
+  font-size: 4.4vw;
+  margin-bottom: 2vw;
+  width: 80%;
+  text-align: center;
+}
+
+.dietetics-content-subTitle {
+  color: #7baea7;
+  font-size: 3.5vw;
+  margin-bottom: 2vw;
+  width: 70%;
+}
+
+.dietetics-content-info {
+  display: flex;
+  font-size: 3.2vw;
+  list-style: none;
+  margin-bottom: 0.3vw;
+}
+
+.dietetics-content-info::before {
+  content: "•";
+  color: #d5d8eb;
+  margin-right: 0.3vw;
+}
+
+.info {
+  font-size: 3.2vw;
+  margin-top: 4vw;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .dietetics-content-wrapper {
+    display: flex;
+    justify-content: end;
+  }
+
+  .dietetic-container {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 7vw;
+    gap: 3vw;
+  }
+
+  .dietetics-image-container img {
+    max-width: 100%;
+    border-top-left-radius: 7vw;
+  }
+
+  .dietetics-content-title {
+    font-size: 1.6vw;
+    margin: 0;
+    margin-bottom: 1vw;
+    text-align: left;
+  }
+
+  .dietetics-content-subTitle {
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    width: 100%;
+  }
+
+  .dietetics-content-info {
+    font-size: 1vw;
+    margin-bottom: 0.3vw;
+  }
+
+  .info {
+    font-size: 1vw;
+    margin-top: 2vw;
+    word-wrap: break-word;
+    width: 100%;
+  }
+}

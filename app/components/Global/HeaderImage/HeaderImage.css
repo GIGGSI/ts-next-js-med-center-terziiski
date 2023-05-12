@@ -1,0 +1,53 @@
+.header-image-wrapper img {
+  max-width: 100%;
+  object-fit: contain;
+  border-bottom-left-radius: 20vw;
+}
+
+.obstetrics-circle-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  right: 0;
+}
+
+.obstetrics-circle {
+  width: 25vw;
+  height: 25vw;
+  border: 2px solid var(--base-font-color);
+  border-radius: 50%;
+  margin-top: -12vw;
+}
+
+@media screen and (min-width: 768px) {
+  .header-image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-bottom-left-radius: 20vw;
+  }
+
+  .obstetrics-circle-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 0;
+  }
+
+  .obstetrics-circle {
+    width: 15vw;
+    height: 15vw;
+    border: 3px solid var(--base-font-color);
+    border-radius: 50%;
+    z-index: 99999999;
+    margin-top: -7vw;
+  }
+
+  .lazy {
+    opacity: 0;
+    transition: all 0.6s;
+  }
+  .lazy--loaded {
+    opacity: 1;
+  }
+}

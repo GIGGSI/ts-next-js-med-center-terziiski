@@ -1,0 +1,71 @@
+.obstetrics-wrapper {
+  display: flex;
+}
+
+.obstetrics-container {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10vw;
+  gap: 3vw;
+}
+
+.obstetrics-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.obstetrics-image-container img {
+  max-width: 100%;
+  border-top-left-radius: 15vw;
+}
+
+.obstetrics-content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.obstetrics-title {
+  color: #7baea7;
+  margin: 0 auto;
+  font-size: 4.4vw;
+  margin-bottom: 2vw;
+  width: 80%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .obstetrics-wrapper {
+    display: flex;
+    justify-content: end;
+  }
+
+  .obstetrics-container {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 7vw;
+    gap: 3vw;
+  }
+
+  .obstetrics-image-container img {
+    max-width: 100%;
+    border-top-left-radius: 7vw;
+  }
+
+  .obstetrics-title {
+    font-size: 1.8vw;
+    margin: 0;
+    margin-bottom: 1.8vw;
+    text-align: left;
+  }
+
+  .obstetrics-description {
+    font-size: 1vw;
+    margin-bottom: 1.7vw;
+  }
+}
