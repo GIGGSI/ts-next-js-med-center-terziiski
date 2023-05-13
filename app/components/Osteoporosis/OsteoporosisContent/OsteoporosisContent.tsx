@@ -1,15 +1,27 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
 import SingleContentContainer from "../../Global/SingleContentContainer/SingleContentContainer";
-import { osteoporosisData } from "../OsteoporosisConstant";
 
 import "./OsteoporosisContent.css";
 
 const OsteoporosisContent = () => {
+  const [data, setData] = useState<singleServiceData[]>([]);
+
+  useEffect(() => {
+    const fetchOsteoporosis = async () => {
+      const res = await fetch("/api/services/osteoporosis");
+      const resultData = await res.json();
+
+      setData(resultData);
+    };
+    fetchOsteoporosis();
+  }, []);
+
   return (
     <div className="osteoporosis-content-wrapper">
       <div className="osteoporosis-container">
-        {osteoporosisData.map((item: singleServiceData) => (
+        {data.map((item: singleServiceData) => (
           <SingleContentContainer
             {...item}
             key={"osteoporosis-content" + item.id}

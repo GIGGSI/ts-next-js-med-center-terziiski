@@ -62,7 +62,6 @@ const SingleDoctor = ({
         <button
           className="single-doctor-learn-more"
           onClick={() => {
-            console.log(id);
             setDoctorId(id);
             setShowModal(true);
             scrollToSection(sectionId ? sectionId : "modal-wrapper");
