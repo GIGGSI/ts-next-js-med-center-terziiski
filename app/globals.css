@@ -38,7 +38,7 @@ a {
 
 .section-title {
   color: var(--base-font-color);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .height {
@@ -54,5 +54,34 @@ a {
     background-color: #f0efef;
     height: 23vw;
     margin-top: -13vw;
+  }
+}
+
+.purple-button {
+  margin: 0 auto;
+  text-align: center;
+  width: 12em;
+  color: #cdcde9;
+  border: 2px solid #cdcde9;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4em;
+  border-radius: 3rem;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.purple-button:hover {
+  background-color: #cdcde9;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 9px 6px -7px rgba(0, 0, 0, 0.34);
+  box-shadow: 7px 9px 6px -7px rgba(0, 0, 0, 0.34);
+}
+
+@media screen and (min-width: 768px) {
+  .purple-button {
+    margin: 0;
   }
 }

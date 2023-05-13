@@ -22,9 +22,9 @@ const HeaderImage = ({
         data-controller="lazyload-image"
         // priority
         loading="lazy"
-        width={1400}
+        width={1920}
         height={800}
-        style={{ width: "100%", height: "auto" }}
+        // style={{ width: "100%", height: "auto" }}
       />
       <div className="obstetrics-circle-wrapper">
         <div className="obstetrics-circle" />

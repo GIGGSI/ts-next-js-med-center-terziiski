@@ -1,0 +1,11 @@
+.our-team-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vw;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team-wrapper {
+    margin-top: 5vw;
+  }
+}

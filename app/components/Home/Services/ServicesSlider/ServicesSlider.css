@@ -1,0 +1,192 @@
+.services-slider-wrapper {
+  background-color: #35646c;
+}
+
+.services-swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10vw;
+  padding-top: 25vw;
+  margin-top: -20vw;
+}
+
+.swiper-container {
+  text-align: center;
+  font-size: 18px;
+  background: #f1f7f5;
+  border-radius: 2vw;
+  display: flex;
+  align-items: center !important;
+}
+
+.swiper-container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.swiper-container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-image-container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 5vw !important;
+}
+
+.swiper-container-title {
+  color: #35646c;
+  font-weight: bold;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+}
+
+.swiper-container-content {
+  color: #4c4c4c;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+  height: 12em;
+}
+
+.button-container {
+  margin-bottom: 3vw;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+}
+
+#gatsby-focus-wrapper
+  > div
+  > div.services-slider-wrapper
+  > div
+  > div.swiper-wrapper
+  > div.swiper-slide.swiper-container.swiper-slide-active
+  > div.button-container
+  > div {
+  width: 7em;
+  font-size: 0.8rem;
+}
+#gatsby-focus-wrapper
+  > div:nth-child(4)
+  > div.services-slider-wrapper
+  > div
+  > div.swiper-wrapper
+  > div.swiper-slide.swiper-slide-prev.swiper-container
+  > div.button-container
+  > div {
+  width: 7em;
+  font-size: 0.8rem;
+}
+#gatsby-focus-wrapper
+  > div:nth-child(4)
+  > div.services-slider-wrapper
+  > div
+  > div.swiper-wrapper
+  > div.swiper-slide.swiper-container.swiper-slide-next
+  > div.button-container
+  > div {
+  width: 7em;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .services-swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5vw;
+    padding-top: 15vw;
+    margin-top: -20vw;
+  }
+
+  .swiper-container {
+    text-align: center;
+    font-size: 18px;
+    background: #f1f7f5;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center !important;
+  }
+
+  .swiper-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .swiper-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper-image-container {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2vw !important;
+    margin-bottom: 2vw;
+  }
+
+  .swiper-container-title {
+    color: #35646c;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    margin-top: -1vw;
+    font-size: 1.7vw;
+  }
+
+  .swiper-container-content {
+    color: #4c4c4c;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8vw;
+    margin-bottom: 1vw;
+    line-height: 1.2vw;
+    height: 10em;
+  }
+
+  .button-container {
+    margin-bottom: 3vw;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: white !important;
+  }
+  #gatsby-focus-wrapper
+    > div
+    > div.services-slider-wrapper
+    > div
+    > div.swiper-wrapper
+    > div.swiper-slide.swiper-container.swiper-slide-active
+    > div.button-container
+    > div {
+    width: 12em;
+    font-size: 1rem;
+  }
+  #gatsby-focus-wrapper
+    > div:nth-child(4)
+    > div.services-slider-wrapper
+    > div
+    > div.swiper-wrapper
+    > div.swiper-slide.swiper-slide-prev.swiper-container
+    > div.button-container
+    > div {
+    width: 12em;
+    font-size: 1rem;
+  }
+  #gatsby-focus-wrapper
+    > div:nth-child(4)
+    > div.services-slider-wrapper
+    > div
+    > div.swiper-wrapper
+    > div.swiper-slide.swiper-container.swiper-slide-next
+    > div.button-container
+    > div {
+    width: 12em;
+    font-size: 1rem;
+  }
+}

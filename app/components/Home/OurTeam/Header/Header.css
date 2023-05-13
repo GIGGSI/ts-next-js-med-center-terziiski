@@ -1,0 +1,35 @@
+.out-team-header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.out-team-content {
+  font-size: 3.2vw;
+  margin-bottom: 1vw;
+}
+
+.our-team-button {
+  color: var(--base-font-color);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .out-team-header {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .out-team-content {
+    width: 50%;
+  }
+
+  .out-team-content {
+    font-size: 1vw;
+  }
+
+  .our-team-button {
+    margin-top: 1vw;
+    font-size: 1.1vw;
+  }
+}

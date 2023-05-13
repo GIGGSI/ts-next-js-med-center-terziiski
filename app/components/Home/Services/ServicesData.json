@@ -1,0 +1,182 @@
+[ 
+    {
+    "id": 1,
+    "title": "Гинекология",
+    "content": "Профилактичен гинекологичен преглед - включва оглед на маточна шийка, взимане на цитонамазка, провеждане на видеоколпоскопия, извършване при нужда и на биопсия.",
+    "iconPath":"https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/icons%2Fgynecology%20(1).png?alt=media&token=b43b9093-dfe8-4ab1-82b3-74bbc68ce56e",
+    "pathIcon": {
+        "childImageSharp": {
+            "gatsbyImageData": {
+              "images": {
+                "sources":[
+                  {
+                    "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/gynecology-chair-128.png?alt=media&token=2a89fb05-d772-4210-9b82-a0b4d5382c2b",
+                    "sizes": "(min-width: 100px) 100px",
+                    "type": "image/webp"
+                  }
+                ],
+                "fallback": {
+                  "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/gynecology-chair-128.png?alt=media&token=2a89fb05-d772-4210-9b82-a0b4d5382c2b",
+                  "src": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/gynecology-chair-128.png?alt=media&token=2a89fb05-d772-4210-9b82-a0b4d5382c2b",
+                  "sizes": "(min-width: 100px) 100px"
+                }
+              },
+              "layout": "constrained",
+              "placeholder": "TRACED_SVG",
+              "width": 100,
+              "height": 100
+            }
+        }
+      } 
+},
+{
+    "id": 2,
+    "title": "Акушерство",
+    "content": "Проследяване на бременност. Специализирани ехографски прегледи. Фетална морфология/4 Д-5 Д /доплерово изследване на плода биохимичен скринин .Мониторен запис на плода / NST",
+    "iconPath":"https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/icons%2Ffetus%20(1).png?alt=media&token=2eed20d6-f1ec-4d5b-923c-61019c6431a5",
+    "pathIcon": {
+      "childImageSharp": {
+          "gatsbyImageData": {
+            "images": {
+              "sources":[
+                {
+                  "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/fetus%20(1).png?alt=media&token=507a5565-b076-4b33-a4ac-83a78f4d31bd",
+                  "sizes": "(min-width: 100px) 100px",
+                  "type": "image/webp"
+                }
+              ],
+              "fallback": {
+                "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/fetus%20(1).png?alt=media&token=507a5565-b076-4b33-a4ac-83a78f4d31bd",
+                "src": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/fetus%20(1).png?alt=media&token=507a5565-b076-4b33-a4ac-83a78f4d31bd",
+                "sizes": "(min-width: 100px) 100px"
+              }
+            },
+            "layout": "constrained",
+            "placeholder": "TRACED_SVG",
+            "width": 100,
+            "height": 100
+          }
+      }
+    } 
+},
+{
+    "id": 3,
+    "title": "Остеопороза",
+    "content": "Остеопорозата е прогресивно заболяване на скелета, характеризиращо се с намалена костна маса и структурни изменения на костната тъкан, които водят до повишена чупливост и последващ риск от счупвания. ",
+    "iconPath":"https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/icons%2Fosteoporosis.png?alt=media&token=94b94c38-6788-46b5-89cb-d4d0f89b17cc",
+    "pathIcon": {
+      "childImageSharp": {
+          "gatsbyImageData": {
+            "images": {
+              "sources":[
+                {
+                  "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/osteoporosis.png?alt=media&token=a9d669fa-04a5-4278-b275-787e5c381f98",
+                  "sizes": "(min-width: 100px) 100px",
+                  "type": "image/webp"
+                }
+              ],
+              "fallback": {
+                "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/osteoporosis.png?alt=media&token=a9d669fa-04a5-4278-b275-787e5c381f98",
+                "src": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/osteoporosis.png?alt=media&token=a9d669fa-04a5-4278-b275-787e5c381f98",
+                "sizes": "(min-width: 100px) 100px"
+              }
+            },
+            "layout": "constrained",
+            "placeholder": "TRACED_SVG",
+            "width": 100,
+            "height": 100
+          }
+      }
+    } 
+},
+{
+    "id": 4,
+    "title": "Естетика",
+    "content": "Профилактичен гинекологичен преглед - включва оглед на маточна шийка, взимане на цитонамазка, провеждане на видеоколпоскопия, извършване при нужда и на биопсия.",
+    "iconPath":"https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/icons%2Fabdominoplasty.png?alt=media&token=7638df22-159f-428b-895f-770dac9331f0",
+    "pathIcon": {
+      "childImageSharp": {
+          "gatsbyImageData": {
+            "images": {
+              "sources":[
+                {
+                  "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/abdominoplasty.png?alt=media&token=d0d3704c-4262-4e82-a092-d2685a8e532f",
+                  "sizes": "(min-width: 100px) 100px",
+                  "type": "image/webp"
+                }
+              ],
+              "fallback": {
+                "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/abdominoplasty.png?alt=media&token=d0d3704c-4262-4e82-a092-d2685a8e532f",
+                "src": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/abdominoplasty.png?alt=media&token=d0d3704c-4262-4e82-a092-d2685a8e532f",
+                "sizes": "(min-width: 100px) 100px"
+              }
+            },
+            "layout": "constrained",
+            "placeholder": "TRACED_SVG",
+            "width": 100,
+            "height": 100
+          }
+      }
+    } 
+}, 
+{
+    "id": 5,
+    "title": "Ендокринология",
+    "content": "Профилактичен гинекологичен преглед - включва оглед на маточна шийка, взимане на цитонамазка, провеждане на видеоколпоскопия, извършване при нужда и на биопсия.",
+    "iconPath":"https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/icons%2Flist.png?alt=media&token=6c28c091-664f-4395-b172-bd7b3e8defcf",
+    "pathIcon": {
+      "childImageSharp": {
+          "gatsbyImageData": {
+            "images": {
+              "sources":[
+                {
+                  "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/list.png?alt=media&token=6d3f86d7-e7f7-4572-af10-4aaa2f7da8d0",
+                  "sizes": "(min-width: 100px) 100px",
+                  "type": "image/webp"
+                }
+              ],
+              "fallback": {
+                "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/list.png?alt=media&token=6d3f86d7-e7f7-4572-af10-4aaa2f7da8d0",
+                "src": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/list.png?alt=media&token=6d3f86d7-e7f7-4572-af10-4aaa2f7da8d0",
+                "sizes": "(min-width: 100px) 100px"
+              }
+            },
+            "layout": "constrained",
+            "placeholder": "TRACED_SVG",
+            "width": 100,
+            "height": 100
+          }
+      }
+    } 
+},
+{
+    "id": 6,
+    "title": "Диетология",
+    "content": "Здравословното състояние на всеки човек до голяма степен се определя от начина на живот, който той води. Основно значение за здравето имат здравословно хранене и двигателната активност.",
+    "iconPath":"https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/icons%2Fnutrition.png?alt=media&token=1f5c47fd-e770-4d67-b0ca-41808676f0d2",
+    "pathIcon": {
+      "childImageSharp": {
+          "gatsbyImageData": {
+            "images": {
+              "sources":[
+                {
+                  "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/nutrition.png?alt=media&token=c05f1525-0960-47b9-8f45-40c7ab7d088e",
+                  "sizes": "(min-width: 100px) 100px",
+                  "type": "image/webp"
+                }
+              ],
+              "fallback": {
+                "srcSet": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/nutrition.png?alt=media&token=c05f1525-0960-47b9-8f45-40c7ab7d088e",
+                "src": "https://firebasestorage.googleapis.com/v0/b/med-center-terziiski.appspot.com/o/nutrition.png?alt=media&token=c05f1525-0960-47b9-8f45-40c7ab7d088e",
+                "sizes": "(min-width: 100px) 100px"
+              }
+            },
+            "layout": "constrained",
+            "placeholder": "TRACED_SVG",
+            "width": 100,
+            "height": 100
+          }
+      }
+    } 
+}
+]
