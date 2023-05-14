@@ -1,0 +1,64 @@
+.blog-section-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.subTitle {
+  color: #7baea7;
+}
+.bog-section-title-container .section-title {
+  text-align: center;
+}
+.subTitle {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.blog-section-recommended-blogs-info {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+
+  .bog-section-title-container {
+    width: 45%;
+  }
+  .blog-section-recommended-blogs {
+    width: 55%;
+  }
+  .subTitle {
+    width: 85%;
+    line-height: 2rem;
+  }
+
+  .blog-section-recommended-blogs-info {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .bog-section-title-container .section-title {
+    text-align: left;
+  }
+  .subTitle {
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: left;
+  }
+}
